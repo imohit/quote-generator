@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -5,7 +6,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image: url('background.jpg'); /* Add your image filename here */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
 }
+
 
 .container {
     text-align: center;
