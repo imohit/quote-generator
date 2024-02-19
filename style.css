@@ -1,6 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    color: #555555;
     display: flex;
     justify-content: center;
     align-items: center;
