@@ -58,8 +58,6 @@ document.getElementById('quoteButton').addEventListener('click', function() {
         "What you seek is seeking you. – Rumi",
         "The only limit to our realization of tomorrow will be our doubts of today. – Franklin D. Roosevelt",
         "Begin anywhere. – John Cage"
-]
-
     ];
     const quote = quotes[Math.floor(Math.random() * quotes.length)];
     document.getElementById('quote').textContent = quote;
